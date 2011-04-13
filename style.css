@@ -1,0 +1,466 @@
+body
+{
+	background: #FCFBFA;
+	background-image: url('images/noise.png');
+	background-repeat: both;
+	font-family: "Palatino", "Georgia", "Times New Roman", serif;
+}
+
+a
+{
+	/*text-decoration: none;*/
+	color: inherit;
+	word-wrap: break-word;
+}
+
+#content_area
+{
+	margin-top: 10px;
+}
+
+#content p, #content blockquote, #content ul
+{
+	
+	font-size: 15px;
+	color: #2D2D2D;
+}
+
+#content p, #content blockquote, #content ul, #content pre
+{
+	margin-bottom: 15px;
+}
+
+#content p, blockquote
+{
+	text-align: justify;
+	line-height: 24px;
+}
+
+#content blockquote
+{
+	font-size: 14px;
+	line-height: 18px;
+}
+
+#content ul, #content blockquote, pre
+{
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+#content ul
+{
+	padding-left: 1em;
+	padding-right: 1em;
+	list-style: url('images/bullet.png');
+}
+
+#content ul li
+{
+	line-height: 18px;
+	margin-bottom: 6px;
+}
+
+/*#content p iframe
+{
+  margin: 7px;
+  margin-right: 0px;
+}*/
+
+#content_area .date, #content_area .comment_count
+{
+	margin-top: -15px;
+}
+
+#content_area .date a, #content_area .comment_count a, #comments .comment-metadata p, #comments .comment-metadata a
+{
+	color: #727272;
+	text-decoration: none;
+}
+
+#content_area .comment_count, #bottom_nav .next_link
+{
+	text-align: right;
+}
+
+#content_area ol.footnotes
+{
+  margin-bottom: 18px;
+  list-style-position: inside;
+}
+
+#bottom_nav
+{
+  margin-top: 10px;
+}
+
+#bottom_nav p
+{
+	font-size: 22px;
+}
+
+#sidebar
+{
+	height: 800px;
+	background: #F5F4F3;
+	border-left: 1px solid #DAD9D8;
+	border-right: 1px solid #DAD9D8;
+	margin-left: 0;
+	padding: 60px 25px;
+}
+
+#sidebar h2
+{
+	text-align: center;
+	font-variant: small-caps;
+	font-weight: normal;
+	color: #2D2D2D;
+	border-bottom: 1px solid #191919;
+	padding-bottom: 3px;
+	font-size: 18px;
+}
+
+#sidebar ul
+{
+	margin-bottom: 20px;
+	list-style: none;
+}
+
+#sidebar ul li
+{
+	border-bottom: 1px solid #DAD9D8;
+	font-size: 13px;
+}
+
+#sidebar ul li a
+{
+	text-decoration: none;
+	color: #2D2D2D;
+	display: block;
+	height: 100%;
+	padding: 5px 2px;
+}
+
+#sidebar ul li a:hover
+{
+	background-color: #ebe9e8;
+}
+
+#search
+{
+  width: 100%;
+	margin-bottom: 20px;
+	font-size: 13px;
+	padding: 2px;
+}
+
+#search, #commentform input, #commentform #comment
+{
+	border: 1px solid #bdbcbb;
+	background-image: url('images/noise.png');
+	color: #2d2d2d;
+	background-color: #FCFBFA;
+	outline: none;
+}
+
+#footer
+{
+	text-align: center;
+	color: #b8b7b6; /* cc icon color */
+	font-size: 12px;
+}
+
+#footer p
+{
+	margin-bottom: 2px;
+	font-size: 11px;
+}
+
+#head
+{
+	margin-bottom: 30px;
+}
+
+#head h1
+{
+	text-align: center;
+	font-size: 40px;
+	font-weight: normal;
+	padding: 3px;
+}
+
+#head h1 a
+{
+	text-decoration: none;
+}
+
+#head ul.pages
+{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#head ul.pages li
+{
+	display: inline;
+	padding-right: 18px;
+}
+
+#head ul.pages li:last-child
+{
+	display: inline;
+	padding-right: 0px;
+}
+
+#head ul.pages li a
+{
+	color: #595959;
+	text-decoration: none;
+}
+
+#head ul#child_pages
+{
+  margin-top: 14px;
+  margin-bottom: -19px;
+}
+
+#head ul#child_pages li a
+{
+  font-variant: small-caps;
+}
+
+#head ul#parent_pages li a
+{
+	text-transform: uppercase;
+	font-size: 18px;
+}
+
+#head ul.pages li.current_page_item a
+{
+	border-bottom: 2px solid #949494;
+}
+
+#head ul#parent_pages li.current_page_item a, #head ul.pages li.current_page_ancestor a
+{
+	border-bottom: 3px solid #949494;
+}
+
+#head ul.pages li a:hover
+{
+	border-bottom: 3px solid #BABABA;
+}
+
+#head ul#child_pages li a:hover
+{
+	border-bottom: 2px solid #BABABA;
+}
+
+#content h1
+{
+	font-weight: normal;
+	font-variant: small-caps;
+	font-size: 18px;
+	border-bottom: 1px solid #191919;
+	margin: 10px auto 6px auto;
+	padding-bottom: 4px;
+}
+
+#content h1 a
+{
+	text-decoration: none;
+	color: #2D2D2D;
+}
+
+#content .post_footer p a:hover, #content p a
+{
+	text-decoration: underline;
+}
+
+.post_footer
+{
+	margin-bottom: 50px;
+}
+
+#comments
+{
+	background: #F5F4F3;
+	border: 1px solid #DAD9D8;
+	margin: 30px;
+	margin-top: 0px;
+	padding: 30px;
+}
+
+#comments li
+{
+/*  border: 1px solid blue;*/
+/*  margin-bottom: 100px;*/
+}
+
+#comments ul
+{
+  list-style: none;
+  /*padding-left: 0;
+    padding-right: 0;*/
+    padding: 0px;
+    margin: 0px;
+}
+
+#comments p
+{
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 16px;
+/*  text-align: left;*/
+}
+
+#comments .comment-metadata
+{
+  margin-top: -10px;
+  margin-bottom: 45px;
+}
+
+#comments .comment-metadata .comment-right
+{
+  float: right;
+}
+
+#comments .comment-metadata .comment-left
+{
+  float: left;
+}
+
+#commentform input, #commentform #comment
+{
+  font-size: 15px;
+  padding: 3px;
+}
+
+.comment-form-author, .comment-form-email, .comment-form-url
+{
+  width: 238px;
+  padding: 3px;
+}
+
+.comment-form-author, .comment-form-email
+{
+  padding-left: 0px;
+}
+
+.comment-form-email, .comment-form-url
+{
+  float: left;
+}
+
+.comment-form-email
+{
+  margin-right: 10px;
+}
+
+.comment-form-author input, .comment-form-email input, .comment-form-url input
+{
+  width: 100%;
+  margin: 0px;
+}
+
+#comment-textarea-container
+{
+  padding: 2px 3px 3px 0px;
+  width: 492px;
+  clear: both;
+}
+
+#commentform #comment
+{
+  width: 100%;
+  color: #2d2d2d;
+}
+
+p.form-submit
+{
+  margin: 0px;
+  margin-top: 1px;
+  padding:0px;
+}
+
+#commentform #submit
+{
+  margin: 0px;
+  color: #727272;
+  background-color: #DAD9D8;
+  background-image: none;
+  font-family: "Palatino", "Georgia", "Times New Roman", serif;
+}
+
+#commentform #submit:hover
+{
+  background-color: #C9C8C7;
+}
+
+sup
+{
+  vertical-align: super;
+  font-size: 10px;
+}
+
+#sidebar {
+        filter:alpha(opacity=0);
+        -moz-opacity:0;
+        -khtml-opacity: 0;
+        opacity: 0;
+}
+
+#content #error
+{
+  text-align: center;
+}
+
+#content #error h1
+{
+  text-align: center;
+  border-bottom: none;
+  font-size: 32px;
+}
+
+#content #error p
+{
+  text-align: center;
+}
+
+/* Begin Images --- from Default theme */
+p img {
+    padding: 0;
+    max-width: 100%;
+    }
+
+/*  Using 'class="alignright"' on an image will (who would've
+    thought?!) align the image to the right. And using 'class="centered',
+    will of course center the image. This is much better than using
+    align="center", being much more futureproof (and valid) */
+
+img.centered {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+img.alignright {
+    padding: 4px;
+    margin: 0 0 2px 7px;
+    display: inline;
+    }
+
+img.alignleft {
+    padding: 4px;
+    margin: 0 7px 2px 0;
+    display: inline;
+    }
+
+.alignright {
+    float: right;
+    }
+
+.alignleft {
+    float: left
+    }
+/* End Images */
