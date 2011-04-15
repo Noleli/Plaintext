@@ -31,6 +31,17 @@
 <?php wp_enqueue_script('cooquery', get_bloginfo('template_url').'/jquery.cooquery.js', array('jquery')); ?>
 <?php wp_enqueue_script('plaintext', get_bloginfo('template_url').'/plaintext.js', array('jquery')); ?>
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+
+<noscript>
+	<style type="text/css">
+		#sidebar {
+	        filter:alpha(opacity=100);
+	        -moz-opacity:1;
+	        -khtml-opacity: 1;
+	        opacity: 1;
+		}
+	</style>
+</noscript>
 <?php
 	/* We add some JavaScript to pages with the comment form
 	 * to support sites with threaded comments (when in use).

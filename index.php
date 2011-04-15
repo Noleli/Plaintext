@@ -15,16 +15,6 @@
 
 get_header(); ?>
 <body>
-	<noscript>
-		<style type="text/css">
-			#sidebar {
-		        filter:alpha(opacity=100);
-		        -moz-opacity:1;
-		        -khtml-opacity: 1;
-		        opacity: 1;
-			}
-		</style>
-	</noscript>
 	<!--[if lt IE 8]> <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;'> <a href="http://http://www.mozilla.com/en-US/firefox/new/?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div> <![endif]-->
 	<div class="container_12">
 		<div class="grid_3 push_9">
