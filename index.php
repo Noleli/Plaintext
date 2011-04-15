@@ -31,7 +31,7 @@ get_header(); ?>
 			<div id="sidebar">
 				<?php dynamic_sidebar('sidebar'); ?>
 				<div id="footer">
-					<p><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/" alt="Creative Commons Attribution-NonCommercial-ShareAlike"><img src="<?php bloginfo('template_directory'); ?>/images/cc-by-nc-sa.png"></a></p>
+					<p><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/"><img src="<?php bloginfo('template_directory'); ?>/images/cc-by-nc-sa.png" alt="Creative Commons Attribution-NonCommercial-ShareAlike"></a></p>
 					<p>Inspired by <a href="http://www.hogbaysoftware.com/products/plaintext">PlainText</a></p>
 				</div>
 			</div><!-- end sidebar -->
