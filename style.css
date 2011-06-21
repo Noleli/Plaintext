@@ -25,7 +25,7 @@ a
 	color: #2D2D2D;
 }
 
-#content p, #content blockquote, #content ul, #content pre
+#content p, #content blockquote, #content ul, #content pre, #content table
 {
 	margin-bottom: 15px;
 }
@@ -42,7 +42,7 @@ a
 	line-height: 18px;
 }
 
-#content ul, #content blockquote, pre, .MathJax_Preview, .MathJax
+#content ul, #content ol, #content blockquote, pre, #content table
 {
 	margin-left: 30px;
 	margin-right: 30px;
@@ -60,6 +60,22 @@ a
 	line-height: 18px;
 	margin-bottom: 6px;
 }
+
+#content table, #content table tr th
+{
+  border: 2px solid #949494;
+}
+
+#content table tr td
+{
+  border: 1px solid #949494;
+}
+
+#content table tr td, #content table tr th
+{
+  padding: 2px;
+}
+
 
 /*#content p iframe
 {
@@ -439,7 +455,7 @@ p img {
     will of course center the image. This is much better than using
     align="center", being much more futureproof (and valid) */
 
-img.centered {
+img.centered, img.aligncenter, p.aligncenter {
     display: block;
     margin-left: auto;
     margin-right: auto;
