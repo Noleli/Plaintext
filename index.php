@@ -22,7 +22,7 @@ get_header(); ?>
 				<?php dynamic_sidebar('sidebar'); ?>
 				<div id="footer">
 					<p><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/us/"><img src="<?php bloginfo('template_directory'); ?>/images/cc-by-nc-sa.png" alt="Creative Commons Attribution-NonCommercial-ShareAlike"></a></p>
-					<p>Inspired by <a href="http://www.hogbaysoftware.com/products/plaintext">PlainText</a></p>
+					<p><a href="https://github.com/Noleli/Plaintext">Plaintext</a>, a <a href="http://noahliebman.com/">.nl</a> production</p>
 				</div>
 			</div><!-- end sidebar -->
 		</div><!-- end grid_3 -->
