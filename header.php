@@ -32,7 +32,6 @@
 <link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
 <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
 
-
 <?php wp_enqueue_script('jquery'); ?>
 <?php wp_enqueue_script('cooquery', get_bloginfo('template_url').'/jquery.cooquery.js', array('jquery')); ?>
 <?php wp_enqueue_script('plaintext', get_bloginfo('template_url').'/plaintext.js', array('jquery')); ?>
