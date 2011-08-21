@@ -21,7 +21,10 @@ function init($)
 
 function doSidebar()
 {
-	$("#sidebar").height($(document).height());
+	if($("#sidebar").height() < $(document).height())
+	{
+		$("#sidebar").height($(document).height() - 120); // minus 120 because of the 60px of top and bottom padding
+	}
 	
 	if(!$.readCookie("animate")) // might be nice to add a document.referrer.match(document.domain), but deal with www.
 	{

@@ -85,6 +85,7 @@ get_header(); ?>
 						<div class="grid_2 omega">
 							<p class="next_link"><?php next_posts_link("»"); ?></p>
 						</div>
+						<div class="bottom_dot">■</div>
 					</div>
 					
 				</div><!-- end content -->

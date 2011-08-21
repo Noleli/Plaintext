@@ -32,7 +32,6 @@ a
 
 #content p, blockquote
 {
-	text-align: justify;
 	line-height: 24px;
 }
 
@@ -40,6 +39,7 @@ a
 {
 	font-size: 14px;
 	line-height: 18px;
+	text-align: justify;
 }
 
 #content ul, #content ol, #content blockquote, pre, #content table
@@ -99,6 +99,14 @@ a
 	text-align: right;
 }
 
+#bottom_nav .bottom_dot
+{
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 20px;
+	color: #DAD9D8;
+}
+
 #content_area ol.footnotes
 {
   margin-bottom: 18px;
@@ -118,7 +126,7 @@ a
 
 #sidebar
 {
-	height: 800px;
+/* 	height: 400px; */
 	background: #F5F4F3;
 	border-left: 1px solid #DAD9D8;
 	border-right: 1px solid #DAD9D8;
