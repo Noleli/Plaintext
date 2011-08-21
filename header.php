@@ -40,6 +40,7 @@
 <noscript>
 	<style type="text/css">
 		#sidebar {
+			height: 800px;
 	        filter:alpha(opacity=100);
 	        -moz-opacity:1;
 	        -khtml-opacity: 1;
