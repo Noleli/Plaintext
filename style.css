@@ -33,13 +33,13 @@ a
 #content p, blockquote
 {
 	line-height: 24px;
+	text-align: justify;
 }
 
 #content blockquote
 {
 	font-size: 14px;
 	line-height: 18px;
-	text-align: justify;
 }
 
 #content ul, #content ol, #content blockquote, pre, #content table
