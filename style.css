@@ -42,6 +42,12 @@ a
 	line-height: 18px;
 }
 
+#content blockquote cite
+{
+	margin-left: 20px;
+	font-style: italic;
+}
+
 #content ul, #content ol, #content blockquote, pre, #content table
 {
 	margin-left: 30px;
