@@ -18,7 +18,7 @@ if ( function_exists('register_sidebar_widget') )
 
 // This theme uses wp_nav_menu() in one location.
 register_nav_menus( array(
-	'primary' => __( 'Primary Navigation', 'twentyten' ),
+	'primary' => __( 'Primary Navigation', 'plaintext' ),
 ) );
 
 // comment layout
