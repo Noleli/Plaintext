@@ -16,6 +16,11 @@ function widget_mytheme_search() {
 if ( function_exists('register_sidebar_widget') )
     register_sidebar_widget(__('Search'), 'widget_mytheme_search');
 
+// This theme uses wp_nav_menu() in one location.
+register_nav_menus( array(
+	'primary' => __( 'Primary Navigation', 'plaintext' ),
+) );
+
 // comment layout
 function plaintext_comment($comment, $args, $depth) {
 	$GLOBALS['comment'] = $comment;
