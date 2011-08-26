@@ -1,3 +1,14 @@
+/*
+Theme Name: Plaintext
+Theme URI: https://github.com/Noleli/Plaintext/
+Author: Noah Liebman
+Author URI: http://noahliebman.com
+Version: 1.1
+License: Creative Commons Attribution Noncommercial Share Alike
+License URI: http://creativecommons.org/licenses/by-nc-sa/3.0/us/
+Tags: light, white, black, two-columns, right-sidebar, fixed-width, custom-menu, editor-style, theme-options 
+*/
+
 body
 {
 	background: #FCFBFA;
@@ -219,26 +230,26 @@ a
 	text-decoration: none;
 }
 
-#head ul.pages
+#head ul.menu
 {
 	text-align: center;
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
 
-#head ul.pages li
+#head ul.menu li
 {
 	display: inline;
 	padding-right: 18px;
 }
 
-#head ul.pages li:last-child
+#head ul.menu li:last-child
 {
 	display: inline;
 	padding-right: 0px;
 }
 
-#head ul.pages li a
+#head ul.menu li a
 {
 	color: #595959;
 	text-decoration: none;
@@ -255,23 +266,23 @@ a
   font-variant: small-caps;
 }
 
-#head ul#parent_pages li a
+#head ul#menu-primary li a
 {
 	text-transform: uppercase;
 	font-size: 18px;
 }
 
-#head ul.pages li.current_page_item a
+#head ul.menu li.current_page_item a
 {
 	border-bottom: 2px solid #949494;
 }
 
-#head ul#parent_pages li.current_page_item a, #head ul.pages li.current_page_ancestor a
+#head ul#parent_pages li.current_page_item a, #head ul.menu li.current_page_ancestor a
 {
 	border-bottom: 3px solid #949494;
 }
 
-#head ul.pages li a:hover
+#head ul.menu li a:hover
 {
 	border-bottom: 3px solid #BABABA;
 }

@@ -1,16 +1,15 @@
 <?php
 /**
- * The main template file.
+ * The template for displaying all pages.
  *
- * This is the most generic template file in a WordPress theme
- * and one of the two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query. 
- * E.g., it puts together the home page when no home.php file exists.
- * Learn more: http://codex.wordpress.org/Template_Hierarchy
+ * This is the template that displays all pages by default.
+ * Please note that this is the WordPress construct of pages
+ * and that other 'pages' on your WordPress site will use a
+ * different template.
  *
  * @package WordPress
- * @subpackage Plaintext
- * @since Plaintext 1.0
+ * @subpackage PlainText
+ * @since PlainText 1.0
  */
 
 get_header(); ?>
@@ -23,7 +22,7 @@ get_header(); ?>
 			 * If you want to overload this in a child theme then include a file
 			 * called loop-index.php and that will be used instead.
 			 */
-			 get_template_part( 'loop', 'index' );
+			 get_template_part( 'loop', 'page' );
 			?>
 	</div> <!-- end container_12 -->
 	<?php
