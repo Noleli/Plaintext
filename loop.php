@@ -28,7 +28,11 @@
 			<div id="content_area">
 				<div id="head">
 					<h1><a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-					<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+					
+					<?php
+						wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary', 'depth' => 1, 'menu' => 'main-nav' ) );
+						wp_nav_menu( array( 'container_class' => 'submenu-header', 'theme_location' => 'primary', 'depth' => 0, 'menu' => 'main-nav', 'walker' => new Custom_Walker_Nav_Sub_Menu() ) );
+					?>
 					
 				</div><!-- end head -->
 				
