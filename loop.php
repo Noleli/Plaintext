@@ -41,7 +41,7 @@
 						<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 						<?php the_content(); ?>
 						
-						<?php if(!$is_page) : ?>
+						<?php if(!is_page()) : ?>
 							<div class="post_footer">
 								<div class="grid_2 alpha suffix_4">
 									<p class="date"><a href="<?php the_permalink(); ?>"><?php echo get_the_date(); ?></a></p>
