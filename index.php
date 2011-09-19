@@ -23,7 +23,7 @@ get_header(); ?>
 			 * If you want to overload this in a child theme then include a file
 			 * called loop-index.php and that will be used instead.
 			 */
-			 query_posts($query_string . 'cat=-'.get_category_by_slug('page-2')->cat_ID);
+			 query_posts($query_string . 'cat=-'.get_category_by_slug('big-tweets')->cat_ID);
 			 get_template_part( 'loop', 'index' );
 			?>
 	</div> <!-- end container_12 -->
