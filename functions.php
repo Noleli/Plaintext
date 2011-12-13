@@ -21,6 +21,14 @@ register_nav_menus( array(
 	'primary' => __( 'Primary Navigation', 'plaintext' ),
 ) );
 
+function SearchFilter($query) {
+	if ($query->is_search) {
+		$query->set('post_type', 'post');
+	}
+		return $query;
+}
+add_filter('pre_get_posts','SearchFilter');
+
 
 
 /**
