@@ -29,6 +29,11 @@ a
 	margin-top: 10px;
 }
 
+#content
+{
+	font-family: "Georgia", "Palatino", "Times New Roman", serif;
+}
+
 #content p, #content blockquote, #content ul
 {
 	
